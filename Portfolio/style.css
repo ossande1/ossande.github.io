@@ -1,3 +1,8 @@
+    @font-face{
+        font-family: Sansfont;
+        src: url(StackSansNotch-VariableFont_wght.ttf);
+    }
+    
     @keyframes slide-in {
 
         from {
@@ -22,8 +27,136 @@
 
     }
 
-@media screen and (min-width: 768px) {
+    .nameStyle{
+        color: rgb(116, 139, 157);
+        transition: 0.3s;
+    }
 
+    .firsth{
+        color: rgb(79, 92, 104);
+    }
+
+    .title:hover .nameStyle{
+        color: rgb(79, 92, 104);
+    }
+
+    .info1{
+        display: block;
+        background-color: rgb(190, 218, 244);
+        padding: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .info2{
+        display: block;
+        background-color: rgb(190, 218, 244);
+        padding: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .info3{
+        display: block;
+        background-color: rgb(190, 218, 244);
+        padding: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .int1{
+        display: inline-block;
+        background-color: rgba(168, 214, 255, 0.112);
+        padding: 10px;
+        border-radius: 20px;
+        transition: 0.3s;
+        font-family: Sansfont;
+        font-weight: bolder;
+    }
+
+    .int2{
+        display: inline-block;
+        background-color: rgba(168, 214, 255, 0.112);
+        padding: 10px;
+        border-radius: 20px;
+        transition: 0.3s;
+        font-family: Sansfont;
+        font-weight: bolder;
+    }
+
+    .int3{
+        display: inline-block;
+        background-color: rgba(168, 214, 255, 0.112);
+        padding: 10px;
+        border-radius: 20px;
+        transition: 0.3s;
+        font-family: Sansfont;
+        font-weight: bolder;
+    }
+
+    .info1:hover .int1{
+        padding: 15px;
+        background-color: rgb(168, 214, 255);
+    }
+
+    .info2:hover .int2{
+        padding: 15px;
+        background-color: rgb(168, 214, 255);
+    }
+
+    .info3:hover .int3{
+        padding: 15px;
+        background-color: rgb(168, 214, 255);
+    }
+
+    .pro{
+       font-family: Sansfont;
+       font-weight: bolder;
+    }
+
+    footer{
+        display: block;
+        background-color: rgb(194, 218, 239);
+        padding: 20px;
+        bottom: 0;
+        margin-top: 20px;
+        margin-left: -8px;
+        margin-right: -8px;
+        margin-bottom: -8px;
+    }
+
+    .last{
+        font-size: 40px;
+        font-family: Sansfont;
+        font-weight: bolder;
+    }
+
+    .lastp{
+        display: inline-block;
+        background-color: rgba(168, 214, 255, 0.112);
+        padding: 10px;
+        border-radius: 20px;
+        transition: 0.3s;
+    }
+
+    footer:hover .lastp{
+        padding: 15px;
+        background-color: rgb(168, 214, 255);
+    }
+
+@media screen and (min-width: 768px) {
 
     body{
         background-color: rgb(155, 181, 203);
@@ -44,7 +177,6 @@
         animation-timing-function: linear;
     }
 
-
     .gamePage{
         animation: slide-in 1000ms;
         animation-timing-function: linear;
@@ -52,7 +184,7 @@
 
     .title{
         display: block;
-        background-color: rgb(222, 232, 241);
+        background-color: rgb(194, 218, 239);
         padding: 20px;
         border-radius: 60px;
         display: flex;
@@ -66,12 +198,50 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-    }
+    } 
 
     a{
         text-decoration: none;
         color: black;
     }
+
+    .ject:hover, .ject:active {text-decoration: underline;}
+
+    .rectangle{
+        display: block;
+        background-color: rgb(67, 95, 120);
+        margin-left: -8px;
+        margin-right: -8px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .line:hover .title2{
+        color: rgb(79, 92, 104);
+    }
+
+    .title2{
+        color: black;
+        background-color: rgb(136, 172, 203);
+        padding-bottom: 100px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 60px;
+        float: left;
+        font-size: 20px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: 0.3s;
+    }
+
+    .favorite{
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+    }
+
 
     .btn1{
         padding: 0;
@@ -83,11 +253,11 @@
         margin-top: 30px;
         font-size: 25px;
         display: block;
-        background-color: aliceblue;
+        background-color: rgb(165, 195, 222);
         padding-left: 100px;
         padding-right: 100px;
-        padding-bottom: 400px;
-        padding-top: 20px;
+        padding-bottom: 350px;
+        padding-top: 50px;
         border-radius: 20px;
         background-image: url(tabletcr.webp);
         background-size: 80%;
@@ -95,12 +265,12 @@
         background-position: center;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         cursor: pointer;
-        transition: 0.1s
+        transition: 0.1s;
     }
 
     .pro1:hover{
         font-size: 30px;
-        background-color: rgb(199, 211, 221);
+        background-color: rgb(184, 212, 234);
         padding-left: 110px;
         padding-right: 110px;
         padding-bottom: 420px;
@@ -118,11 +288,11 @@
         margin-top: 30px;
         font-size: 25px;
         display: block;
-        background-color: aliceblue;
+        background-color: rgb(165, 195, 222);
         padding-left: 100px;
         padding-right: 100px;
-        padding-top: 20px;
-        padding-bottom: 400px;
+        padding-top: 50px;
+        padding-bottom: 350px;
         border-radius: 20px;
         background-image: url(watch.png);
         background-size: 50%;
@@ -130,12 +300,12 @@
         background-position: center;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         cursor: pointer;
-        transition: 0.1s
+        transition: 0.1s;
     }
 
     .pro2:hover{
         font-size: 30px;
-        background-color: rgb(199, 211, 221);
+        background-color: rgb(184, 212, 234);
         padding-left: 110px;
         padding-right: 110px;
         padding-bottom: 420px;
@@ -153,11 +323,11 @@
         margin-top: 30px;
         font-size: 25px;
         display: block;
-        background-color: aliceblue;
+        background-color: rgb(165, 195, 222);
         padding-left: 100px;
         padding-right: 100px;
-        padding-bottom: 400px;
-        padding-top: 20px;
+        padding-bottom: 350px;
+        padding-top: 50px;
         border-radius: 20px;
         background-image: url(gamehub.webp);
         background-size: 80%;
@@ -165,12 +335,12 @@
         background-position: center;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         cursor: pointer;
-        transition: 0.1s
+        transition: 0.1s;
     }
 
     .pro3:hover{
         font-size: 30px;
-        background-color: rgb(199, 211, 221);
+        background-color: rgb(184, 212, 234);
         padding-left: 110px;
         padding-right: 110px;
         padding-bottom: 420px;
@@ -363,8 +533,6 @@
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     }
 
-    .ject:hover, .ject:active {text-decoration: underline;}
-
 }
 
 @media screen and (max-width: 992px) {
@@ -393,6 +561,20 @@
     a{
         text-decoration: none;
         color: black;
+    }
+
+    .ject:hover, .ject:active {text-decoration: underline;}
+
+    .title2{
+        display: block;
+        background-color: rgb(194, 218, 239);
+        padding: 20px;
+        border-radius: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 30px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     }
 
     .btn1{
@@ -686,8 +868,6 @@
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     }
 
-    .ject:hover, .ject:active {text-decoration: underline;}
-
 }
 
 @media screen and (max-width: 600px){
@@ -717,6 +897,20 @@
     a{
         text-decoration: none;
         color: black;
+    }
+
+    .ject:hover, .ject:active {text-decoration: underline;}
+
+    .title2{
+        display: block;
+        background-color: rgb(194, 218, 239);
+        padding: 20px;
+        border-radius: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 30px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     }
 
     .btn1{
@@ -1008,7 +1202,5 @@
         border-radius: 20px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     }
-
-    .ject:hover, .ject:active {text-decoration: underline;}
 
 }

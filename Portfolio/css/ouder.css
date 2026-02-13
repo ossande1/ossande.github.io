@@ -1,0 +1,200 @@
+/*
+    Project: Mijn Eerste Website
+    Bestand: style.css
+    Auteurs: [Bilal en Ossande]
+    Datum: [30-09-2025]
+    Beschrijving: Hoofdstylesheet voor alle pagina's
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #6a6b2f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+
+header .logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+header .logo span {
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover{
+  color: rgb(202, 202, 202);
+}
+
+.dropbtn {
+  background-color: #6a6b2f;
+  color: white;
+  
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #6a6b2f;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #363617;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.banner img {
+margin: 0px 0px 0px 450px;
+  height: 300px;
+  display: block;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px 60px;
+  background-color: #fff;
+}
+
+.intro-text {
+  max-width: 60%;
+}
+
+.intro h2 {
+  color: #d18b00;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.intro p {
+  color: #333;
+  line-height: 1.6;
+}
+
+.intro-logo img {
+  width: 200px;
+  margin-left: 40px;
+}
+
+.events {
+  padding: 40px 60px;
+  background-color: #fff;
+}
+
+.events h3 {
+  font-size: 20px;
+  color: #444;
+  margin-bottom: 20px;
+  font-family: 'Arial Black', sans-serif;
+}
+
+.event-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.event-text {
+  max-width: 60%;
+}
+
+.event-text p {
+  margin-bottom: 10px;
+  color: #222;
+  line-height: 1.6;
+}
+
+.join-btn {
+  display: inline-block;
+  background-color: #b30000;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.event-image {
+  width: 200px;
+  height: 120px;
+  background-color: #d8d8d8;
+  color: #555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+footer {
+  background-color: #6a6b2f;
+  color: #fff;
+  padding: 30px 60px;
+}
+
+.footer-top {
+  margin-bottom: 25px;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-columns div {
+  min-width: 200px;
+}
+
+.footer-columns h4 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.footer-columns a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+}

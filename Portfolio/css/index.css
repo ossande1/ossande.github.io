@@ -1,0 +1,1324 @@
+    @font-face{
+        font-family: Sansfont;
+        src: url(StackSansNotch-VariableFont_wght.ttf);
+    }
+    
+    @keyframes slide-in {
+
+        from {
+            transform: translateX(-100%);
+        }
+        
+        to {
+            transform: translateX(0%);
+        }
+
+    }
+
+    @keyframes fade-in {
+
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+
+    }
+
+    .nameStyle{
+        color: rgb(116, 139, 157);
+        transition: 0.3s;
+    }
+
+    .firsth{
+        color: rgb(79, 92, 104);
+    }
+
+    .title:hover .nameStyle{
+        color: rgb(79, 92, 104);
+    }
+
+    .info1{
+        display: block;
+        background-color: rgb(190, 218, 244);
+        padding: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .info2{
+        display: block;
+        background-color: rgb(190, 218, 244);
+        padding: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .info3{
+        display: block;
+        background-color: rgb(190, 218, 244);
+        padding: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .int1{
+        display: inline-block;
+        background-color: rgba(168, 214, 255, 0.112);
+        padding: 10px;
+        border-radius: 20px;
+        transition: 0.3s;
+        font-family: Sansfont;
+        font-weight: bolder;
+    }
+
+    .int2{
+        display: inline-block;
+        background-color: rgba(168, 214, 255, 0.112);
+        padding: 10px;
+        border-radius: 20px;
+        transition: 0.3s;
+        font-family: Sansfont;
+        font-weight: bolder;
+    }
+
+    .int3{
+        display: inline-block;
+        background-color: rgba(168, 214, 255, 0.112);
+        padding: 10px;
+        border-radius: 20px;
+        transition: 0.3s;
+        font-family: Sansfont;
+        font-weight: bolder;
+    }
+
+    .info1:hover .int1{
+        padding: 15px;
+        background-color: rgb(168, 214, 255);
+    }
+
+    .info2:hover .int2{
+        padding: 15px;
+        background-color: rgb(168, 214, 255);
+    }
+
+    .info3:hover .int3{
+        padding: 15px;
+        background-color: rgb(168, 214, 255);
+    }
+
+    .pro{
+       font-family: Sansfont;
+       font-weight: bolder;
+    }
+
+    footer{
+        display: block;
+        background-color: rgb(194, 218, 239);
+        padding: 20px;
+        bottom: 0;
+        margin-top: 500px;
+        margin-left: -8px;
+        margin-right: -8px;
+        margin-bottom: -8px;
+    }
+
+    .last{
+        font-size: 40px;
+        font-family: Sansfont;
+        font-weight: bolder;
+    }
+
+    .lastp{
+        display: inline-block;
+        background-color: rgba(168, 214, 255, 0.112);
+        padding: 10px;
+        border-radius: 20px;
+        transition: 0.3s;
+    }
+
+    footer:hover .lastp{
+        padding: 15px;
+        background-color: rgb(168, 214, 255);
+    }
+
+@media screen and (min-width: 768px) {
+
+    body{
+        background-color: rgb(155, 181, 203);
+    }
+
+    .homePage{
+        animation: fade-in 2000ms;
+        opacity: 1;
+    }
+
+    .oudPage{
+        animation: fade-in 500ms;
+        opacity: 1;
+    }
+
+    .halloPage{
+        animation: slide-in 100ms;
+        animation-timing-function: linear;
+    }
+
+    .gamePage{
+        animation: slide-in 1000ms;
+        animation-timing-function: linear;
+    }
+
+    .title{
+        display: block;
+        background-color: rgb(194, 218, 239);
+        padding: 20px;
+        border-radius: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 30px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .line{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    } 
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .ject:hover, .ject:active {text-decoration: underline;}
+
+    .rectangle{
+        display: block;
+        background-color: rgb(67, 95, 120);
+        margin-left: -8px;
+        margin-right: -8px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .line:hover .title2{
+        color: rgb(79, 92, 104);
+    }
+
+    .title2{
+        color: black;
+        background-color: rgb(136, 172, 203);
+        padding-bottom: 100px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 60px;
+        float: left;
+        font-size: 20px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: 0.3s;
+    }
+
+    #h3js1{
+        background-color: rgb(126, 157, 185);
+        padding: 20px;
+        border-radius: 5px;
+        margin: 0px;
+        margin-bottom: 5px;
+        transition: 0.3s;
+    }
+
+    #h3js1:hover{
+        background-color: rgb(156, 185, 210);
+        text-decoration: underline;
+        cursor: pointer;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        margin-top: -5px;
+        margin-bottom: 10px;
+    }
+
+    #h3js2{
+        background-color: rgb(126, 157, 185);
+        padding: 20px;
+        border-radius: 5px;
+        margin: 0px;
+        margin-bottom: 5px;
+        transition: 0.3s;
+    }
+
+    #h3js2:hover{
+        background-color: rgb(156, 185, 210);
+        text-decoration: underline;
+        cursor: pointer;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        margin-top: -5px;
+        margin-bottom: 10px;
+    }
+
+    #h3js3{
+        background-color: rgb(126, 157, 185);
+        padding: 20px;
+        border-radius: 5px;
+        margin: 0px;
+        margin-bottom: 5px;
+        transition: 0.3s;
+    }
+
+    #h3js3:hover{
+        background-color: rgb(156, 185, 210);
+        text-decoration: underline;
+        cursor: pointer;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        margin-top: -5px;
+        margin-bottom: 10px;
+    }
+
+    #h3js4{
+        background-color: rgb(126, 157, 185);
+        padding: 20px;
+        border-radius: 5px;
+        margin: 0px;
+        margin-bottom: 5px;
+        transition: 0.3s;
+    }
+
+    #h3js4:hover{
+        background-color: rgb(156, 185, 210);
+        text-decoration: underline;
+        cursor: pointer;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        margin-top: -5px;
+        margin-bottom: 10px;
+    }
+
+    .favorite{
+        line-height: 1.5;
+        position: relative;
+    }
+
+    .line2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #btn1{
+        padding: 0;
+        border: none;
+        background: none;
+        margin-bottom: -500px;
+    }
+
+    .pro1{
+        margin-top: 30px;
+        font-size: 25px;
+        display: block;
+        background-color: rgb(165, 195, 222);
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 350px;
+        padding-top: 50px;
+        border-radius: 20px;
+        background-image: url(tabletcr.webp);
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        cursor: pointer;
+        transition: 0.1s;
+    }
+
+    .pro1:hover{
+        font-size: 30px;
+        background-color: rgb(184, 212, 234);
+        padding-left: 110px;
+        padding-right: 110px;
+        padding-bottom: 420px;
+        padding-top: 25px;
+        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
+    }
+
+    #btn2{
+        padding: 0;
+        border: none;
+        background: none;
+        display: none;
+        margin-bottom: -500px;
+    }
+
+    .pro2{
+        margin-top: 30px;
+        font-size: 25px;
+        display: block;
+        background-color: rgb(165, 195, 222);
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 50px;
+        padding-bottom: 350px;
+        border-radius: 20px;
+        background-image: url(watch.png);
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        cursor: pointer;
+        transition: 0.1s;
+    }
+
+    .pro2:hover{
+        font-size: 30px;
+        background-color: rgb(184, 212, 234);
+        padding-left: 110px;
+        padding-right: 110px;
+        padding-bottom: 420px;
+        padding-top: 25px;
+        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
+    }
+
+    #btn3{
+        padding: 0;
+        border: none;
+        background: none;
+        display: none;
+        margin-bottom: -500px;
+    }
+
+    .pro3{
+        margin-top: 30px;
+        font-size: 25px;
+        display: block;
+        background-color: rgb(165, 195, 222);
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 350px;
+        padding-top: 50px;
+        border-radius: 20px;
+        background-image: url(gamehub.webp);
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        cursor: pointer;
+        transition: 0.1s;
+    }
+
+    .pro3:hover{
+        font-size: 30px;
+        background-color: rgb(184, 212, 234);
+        padding-left: 110px;
+        padding-right: 110px;
+        padding-bottom: 420px;
+        padding-top: 25px;
+        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
+    }
+
+    #btn4{
+        padding: 0;
+        border: none;
+        background: none;
+        display: none;
+        margin-bottom: -500px;
+    }
+
+    .pro4{
+        margin-top: 30px;
+        font-size: 25px;
+        display: block;
+        background-color: rgb(165, 195, 222);
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 350px;
+        padding-top: 50px;
+        border-radius: 20px;
+        background-image: url(Flag_of_Morocco.svg);
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        cursor: pointer;
+        transition: 0.1s;
+    }
+
+    .pro4:hover{
+        font-size: 30px;
+        background-color: rgb(184, 212, 234);
+        padding-left: 110px;
+        padding-right: 110px;
+        padding-bottom: 420px;
+        padding-top: 25px;
+        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
+    }
+
+    .back{
+        display: block;
+        padding: 20px;
+        background-color: aliceblue;
+        border-radius: 20px;
+        border: none;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        transition: 0.3s;
+    }
+
+    .back:hover{
+        padding: 25px;
+        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .firline{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .wat{
+        font-size: 17px;
+        display: block;
+        background-color: aliceblue;
+        padding: 30px;
+        margin: 20px;
+        border-radius: 20px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .drwat{
+        display: none;
+        padding: 20px;
+        background-color: rgb(189, 209, 226);
+        border-radius: 20px;
+    }
+
+    .wat:hover{
+        padding: 35px;
+        background-color: rgb(203, 217, 230);
+        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
+        transition: 0.3s
+    }
+
+    .wat:hover .drwat{
+        display: block;
+    }
+
+    .hoe{
+        font-size: 17px;
+        display: block;
+        background-color: aliceblue;
+        padding: 30px;
+        margin: 20px;
+        border-radius: 20px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .drhoe{
+        display: none;
+        padding: 20px;
+        background-color: rgb(189, 209, 226);
+        border-radius: 20px;
+    }
+
+    .hoe:hover{
+        padding: 35px;
+        background-color: rgb(203, 217, 230);
+        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
+        transition: 0.3s
+    }
+
+    .hoe:hover .drhoe{
+        display: block;
+    }
+
+    .welke{
+        font-size: 17px;
+        display: block;
+        background-color: aliceblue;
+        padding: 30px;
+        margin: 20px;
+        border-radius: 20px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .drwelke{
+        display: none;
+        padding: 20px;
+        background-color: rgb(189, 209, 226);
+        border-radius: 20px;
+    }
+
+    .welke:hover{
+        padding: 35px;
+        background-color: rgb(203, 217, 230);
+        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
+        transition: 0.3s
+    }
+
+    .welke:hover .drwelke{
+        display: block;
+    }
+
+    .rol{
+        font-size: 17px;
+        display: block;
+        background-color: aliceblue;
+        padding: 30px;
+        margin: 20px;
+        border-radius: 20px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .drrol{
+        display: none;
+        padding: 20px;
+        background-color: rgb(189, 209, 226);
+        border-radius: 20px;
+    }
+
+    .rol:hover{
+        padding: 35px;
+        background-color: rgb(203, 217, 230);
+        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
+        transition: 0.3s
+    }
+
+    .rol:hover .drrol{
+        display: block;
+    }
+
+    .git{
+        font-size: 17px;
+        display: block;
+        background-color: aliceblue;
+        padding: 30px;
+        margin: 20px;
+        border-radius: 20px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .drgit{
+        display: none;
+        padding: 20px;
+        background-color: rgb(189, 209, 226);
+        border-radius: 20px;
+    }
+
+    .git:hover{
+        padding: 35px;
+        background-color: rgb(203, 217, 230);
+        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
+        transition: 0.3s
+    }
+
+    .git:hover .drgit{
+        display: block;
+    }
+
+    .secline{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 70px;
+    }
+
+    .waarom{
+        font-size: 17px;
+        display: block;
+        background-color: aliceblue;
+        padding: 40px;
+        margin-top: 20px;
+        margin: 20px;
+        border-radius: 20px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+
+    body{
+        background-color: rgb(155, 181, 203);
+    }
+
+    .title{
+        display: block;
+        background-color: rgb(222, 232, 241);
+        padding: 20px;
+        border-radius: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 30px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .line{
+        display: flex;
+        flex-direction: column;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .ject:hover, .ject:active {text-decoration: underline;}
+
+    .title2{
+        display: block;
+        background-color: rgb(194, 218, 239);
+        padding: 20px;
+        border-radius: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 30px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .btn1{
+        padding: 0;
+        border: none;
+        background: none;
+    }
+
+    .pro1{
+        margin-top: 30px;
+        font-size: 25px;
+        display: block;
+        background-color: aliceblue;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 400px;
+        padding-top: 20px;
+        border-radius: 20px;
+        background-image: url(tabletcr.webp);
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        cursor: pointer;
+        transition: 0.1s
+    }
+
+    .pro1:hover{
+        font-size: 30px;
+        background-color: rgb(199, 211, 221);
+        padding-left: 110px;
+        padding-right: 110px;
+        padding-bottom: 420px;
+        padding-top: 25px;
+        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
+    }
+
+    .btn2{
+        padding: 0;
+        border: none;
+        background: none;
+    }
+
+    .pro2{
+        margin-top: 30px;
+        font-size: 25px;
+        display: block;
+        background-color: aliceblue;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 20px;
+        padding-bottom: 400px;
+        border-radius: 20px;
+        background-image: url(watch.png);
+        background-size: 40%;
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        cursor: pointer;
+        transition: 0.1s
+    }
+
+    .pro2:hover{
+        font-size: 30px;
+        background-color: rgb(199, 211, 221);
+        padding-left: 110px;
+        padding-right: 110px;
+        padding-bottom: 420px;
+        padding-top: 25px;
+        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
+    }
+
+    .btn3{
+        padding: 0;
+        border: none;
+        background: none;
+    }
+
+
+    .pro3{
+        margin-top: 30px;
+        font-size: 25px;
+        display: block;
+        background-color: aliceblue;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 400px;
+        padding-top: 20px;
+        border-radius: 20px;
+        background-image: url(gamehub.webp);
+        background-size: 70%;
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        cursor: pointer;
+        transition: 0.1s
+    }
+
+    .pro3:hover{
+        font-size: 30px;
+        background-color: rgb(199, 211, 221);
+        padding-left: 110px;
+        padding-right: 110px;
+        padding-bottom: 420px;
+        padding-top: 25px;
+        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
+    }
+
+    .back{
+        display: block;
+        padding: 20px;
+        background-color: aliceblue;
+        border-radius: 20px;
+        border: none;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        transition: 0.3s;
+    }
+
+    .back:hover{
+        padding: 25px;
+        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .firline{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .wat{
+        font-size: 17px;
+        display: block;
+        background-color: aliceblue;
+        padding: 30px;
+        margin: 20px;
+        border-radius: 20px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .drwat{
+        display: none;
+        padding: 20px;
+        background-color: rgb(189, 209, 226);
+        border-radius: 20px;
+    }
+
+    .wat:hover{
+        padding: 35px;
+        background-color: rgb(203, 217, 230);
+        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
+        transition: 0.3s
+    }
+
+    .wat:hover .drwat{
+        display: block;
+    }
+
+    .hoe{
+        font-size: 17px;
+        display: block;
+        background-color: aliceblue;
+        padding: 30px;
+        margin: 20px;
+        border-radius: 20px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .drhoe{
+        display: none;
+        padding: 20px;
+        background-color: rgb(189, 209, 226);
+        border-radius: 20px;
+    }
+
+    .hoe:hover{
+        padding: 35px;
+        background-color: rgb(203, 217, 230);
+        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
+        transition: 0.3s
+    }
+
+    .hoe:hover .drhoe{
+        display: block;
+    }
+
+    .welke{
+        font-size: 17px;
+        display: block;
+        background-color: aliceblue;
+        padding: 30px;
+        margin: 20px;
+        border-radius: 20px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .drwelke{
+        display: none;
+        padding: 20px;
+        background-color: rgb(189, 209, 226);
+        border-radius: 20px;
+    }
+
+    .welke:hover{
+        padding: 35px;
+        background-color: rgb(203, 217, 230);
+        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
+        transition: 0.3s
+    }
+
+    .welke:hover .drwelke{
+        display: block;
+    }
+
+    .rol{
+        font-size: 17px;
+        display: block;
+        background-color: aliceblue;
+        padding: 30px;
+        margin: 20px;
+        border-radius: 20px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .drrol{
+        display: none;
+        padding: 20px;
+        background-color: rgb(189, 209, 226);
+        border-radius: 20px;
+    }
+
+    .rol:hover{
+        padding: 35px;
+        background-color: rgb(203, 217, 230);
+        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
+        transition: 0.3s
+    }
+
+    .rol:hover .drrol{
+        display: block;
+    }
+
+    .git{
+        font-size: 17px;
+        display: block;
+        background-color: aliceblue;
+        padding: 30px;
+        margin: 20px;
+        border-radius: 20px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .drgit{
+        display: none;
+        padding: 20px;
+        background-color: rgb(189, 209, 226);
+        border-radius: 20px;
+    }
+
+    .git:hover{
+        padding: 35px;
+        background-color: rgb(203, 217, 230);
+        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
+        transition: 0.3s
+    }
+
+    .git:hover .drgit{
+        display: block;
+    }
+
+    .secline{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 70px;
+    }
+
+    .waarom{
+        font-size: 17px;
+        display: block;
+        background-color: aliceblue;
+        padding: 40px;
+        margin-top: 20px;
+        margin: 20px;
+        border-radius: 20px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+}
+
+@media screen and (max-width: 600px){
+
+    body{
+        background-color: rgb(155, 181, 203);
+    }
+
+    .title{
+        display: block;
+        background-color: rgb(222, 232, 241);
+        padding: 20px;
+        border-radius: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 30px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .line{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .ject:hover, .ject:active {text-decoration: underline;}
+
+    .title2{
+        display: block;
+        background-color: rgb(194, 218, 239);
+        padding: 20px;
+        border-radius: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 30px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .btn1{
+        padding: 0;
+        border: none;
+        background: none;
+    }
+
+    .pro1{
+        margin-top: 30px;
+        font-size: 25px;
+        display: block;
+        background-color: aliceblue;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 300px;
+        padding-top: 20px;
+        border-radius: 20px;
+        background-image: url(tabletcr.webp);
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        cursor: pointer;
+        transition: 0.1s
+    }
+
+    .pro1:hover{
+        font-size: 30px;
+        background-color: rgb(199, 211, 221);
+        padding-left: 110px;
+        padding-right: 110px;
+        padding-bottom: 320px;
+        padding-top: 25px;
+        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
+    }
+
+    .btn2{
+        padding: 0;
+        border: none;
+        background: none;
+    }
+
+    .pro2{
+        margin-top: 30px;
+        font-size: 25px;
+        display: block;
+        background-color: aliceblue;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 20px;
+        padding-bottom: 300px;
+        border-radius: 20px;
+        background-image: url(watch.png);
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        cursor: pointer;
+        transition: 0.1s
+    }
+
+    .pro2:hover{
+        font-size: 30px;
+        background-color: rgb(199, 211, 221);
+        padding-left: 110px;
+        padding-right: 110px;
+        padding-bottom: 320px;
+        padding-top: 25px;
+        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
+    }
+
+    .btn3{
+        padding: 0;
+        border: none;
+        background: none;
+    }
+
+    .pro3{
+        margin-top: 30px;
+        font-size: 25px;
+        display: block;
+        background-color: aliceblue;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 300px;
+        padding-top: 20px;
+        border-radius: 20px;
+        background-image: url(gamehub.webp);
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        cursor: pointer;
+        transition: 0.1s
+    }
+
+    .pro3:hover{
+        font-size: 30px;
+        background-color: rgb(199, 211, 221);
+        padding-left: 110px;
+        padding-right: 110px;
+        padding-bottom: 320px;
+        padding-top: 25px;
+        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
+    }
+
+    .back{
+        display: block;
+        padding: 20px;
+        background-color: aliceblue;
+        border-radius: 20px;
+        border: none;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        transition: 0.3s;
+    }
+
+    .back:hover{
+        padding: 25px;
+        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .firline{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .wat{
+        font-size: 17px;
+        display: block;
+        background-color: aliceblue;
+        padding: 30px;
+        margin: 20px;
+        border-radius: 20px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .drwat{
+        display: none;
+        padding: 20px;
+        background-color: rgb(189, 209, 226);
+        border-radius: 20px;
+    }
+
+    .wat:hover{
+        padding: 35px;
+        background-color: rgb(203, 217, 230);
+        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
+        transition: 0.3s
+    }
+
+    .wat:hover .drwat{
+        display: block;
+    }
+
+    .hoe{
+        font-size: 17px;
+        display: block;
+        background-color: aliceblue;
+        padding: 30px;
+        margin: 20px;
+        border-radius: 20px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .drhoe{
+        display: none;
+        padding: 20px;
+        background-color: rgb(189, 209, 226);
+        border-radius: 20px;
+    }
+
+    .hoe:hover{
+        padding: 35px;
+        background-color: rgb(203, 217, 230);
+        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
+        transition: 0.3s
+    }
+
+    .hoe:hover .drhoe{
+        display: block;
+    }
+
+    .welke{
+        font-size: 17px;
+        display: block;
+        background-color: aliceblue;
+        padding: 30px;
+        margin: 20px;
+        border-radius: 20px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .drwelke{
+        display: none;
+        padding: 20px;
+        background-color: rgb(189, 209, 226);
+        border-radius: 20px;
+    }
+
+    .welke:hover{
+        padding: 35px;
+        background-color: rgb(203, 217, 230);
+        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
+        transition: 0.3s
+    }
+
+    .welke:hover .drwelke{
+        display: block;
+    }
+
+    .rol{
+        font-size: 17px;
+        display: block;
+        background-color: aliceblue;
+        padding: 30px;
+        margin: 20px;
+        border-radius: 20px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .drrol{
+        display: none;
+        padding: 20px;
+        background-color: rgb(189, 209, 226);
+        border-radius: 20px;
+    }
+
+    .rol:hover{
+        padding: 35px;
+        background-color: rgb(203, 217, 230);
+        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
+        transition: 0.3s
+    }
+
+    .rol:hover .drrol{
+        display: block;
+    }
+
+    .git{
+        font-size: 17px;
+        display: block;
+        background-color: aliceblue;
+        padding: 30px;
+        margin: 20px;
+        border-radius: 20px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .drgit{
+        display: none;
+        padding: 20px;
+        background-color: rgb(189, 209, 226);
+        border-radius: 20px;
+    }
+
+    .git:hover{
+        padding: 35px;
+        background-color: rgb(203, 217, 230);
+        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
+        transition: 0.3s
+    }
+
+    .git:hover .drgit{
+        display: block;
+    }
+
+    .secline{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 70px;
+    }
+
+    .waarom{
+        font-size: 17px;
+        display: block;
+        background-color: aliceblue;
+        padding: 40px;
+        margin-top: 20px;
+        margin: 20px;
+        border-radius: 20px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+}

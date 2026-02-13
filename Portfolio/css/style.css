@@ -1,0 +1,1275 @@
+@font-face {
+  font-family: MyFont;
+  src: url(PlayfairDisplay-VariableFont_wght.ttf); 
+}
+
+ @keyframes fade-in {
+
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+
+    }
+
+body{
+    background-color: rgba(255, 142, 142);
+    animation: fade-in 500ms;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#overlay {
+  position: fixed;
+  display: none; 
+  width: 100%; 
+  height: 100%; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2; 
+  cursor: pointer; 
+}
+
+/* menu */
+
+nav{
+    display: block;
+    background-color: rgb(210, 80, 80);
+    padding: 20px;
+    margin: -8px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    transition: 0.5s;
+    font-family: MyFont; 
+    font-weight: 500;
+}
+
+div{
+    transition: 0.5s;
+}
+
+nav div{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: block;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+}
+
+.home:hover{
+    background-color: rgb(172, 69, 69);
+}
+
+.doel:hover{
+    background-color: rgb(172, 69, 69);
+}
+
+.doel:hover .doeldrop{
+    display: block;
+}
+
+.doeldrop{
+    padding: 20px;
+    background-color: rgb(110, 139, 95);
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.doeldrop li{
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.doeldrop li:hover{
+    background-color: rgb(82, 123, 78);
+    border-radius: 5px;
+}
+
+.land:hover{
+    background-color: rgb(172, 69, 69);
+}
+
+.land:hover .landdrop{
+    display: block;
+}
+
+.landdrop{
+    padding: 20px;
+    background-color: rgb(110, 139, 95);
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.landdrop li{
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.landdrop li:hover{
+    background-color: rgb(82, 123, 78);
+    border-radius: 5px;
+}
+
+.formvrij:hover{
+    background-color: rgb(172, 69, 69);
+}
+
+.page1:hover{
+    background-color: rgb(172, 69, 69);
+}
+
+.page2:hover{
+    background-color: rgb(172, 69, 69);
+}
+
+.bron:hover{
+    background-color: rgb(172, 69, 69);
+}
+
+.vers:hover{
+    background-color: rgb(172, 69, 69);
+}
+
+/* header */  
+
+#header-plaats{
+    margin: -8px;
+    padding: 20px;
+    background-color: rgb(220, 99, 99);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-family: MyFont; 
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+}
+
+.flag{
+    border-radius: 20px;
+    box-shadow: 5px 10px rgba(194, 62, 62, 0.633);
+    transition: 0.3s;
+}
+
+.flag:hover{
+    width: 250px;
+    height: 150px;
+    box-shadow: 5px 10px rgba(137, 43, 43, 0.633);
+}
+
+.titel{
+    margin-left: 40px;
+    color: black;
+}  
+
+.mobtn{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(110, 139, 95);
+    border: 1px; 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: 0.3s;
+    box-shadow: 5px 10px rgba(40, 112, 59, 0.204);
+}
+
+.mobtn:hover{
+    padding-bottom: 20px;
+    box-shadow: 10px 15px rgba(38, 122, 51, 0.203);
+    background-color: rgb(82, 123, 78);
+}
+
+
+.mode{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 500px;
+}
+
+#moon{
+    display: none;
+}
+
+/* footer */
+
+footer{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: block;
+    background-color: rgb(82, 123, 78);
+    padding: 16px;
+    margin-top: 20px;
+    margin-bottom: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    transition: 0.5s;
+    font-family: MyFont; 
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+.footerDiv{
+    font-size: 30px;
+    margin-right: auto;
+    color: rgba(217, 162, 20);
+}
+
+.techniekCollegeR{
+     margin-left: auto;
+    color: rgba(217, 162, 20);
+}
+
+/* homepage */
+
+.homet{
+    margin-left: 400px;
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.homediv{
+    border-radius: 20px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+
+.homediv:hover{
+    margin-top: -20px;
+    margin-bottom: 70px;
+    border-radius: 20px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.h2home{
+    display: block;
+    background-color: rgb(82, 123, 78);
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.homep{
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(202, 90, 90);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: -20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/* doelstelling */
+
+.doelstelling-H2{
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: -16px;
+    margin-top: 7px;
+    margin-right: 500px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.doelstelling-A{
+    padding: 20px;
+    background-color: rgb(202, 90, 90);
+    display: inline-block;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 100px;
+    margin-bottom: -8px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.marokkoImg{
+    position: absolute;
+    display: block;
+    margin-left: 1200px;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.marokkoImg2{
+    position: absolute;
+    display: block;
+    margin-left: 1200px;
+    margin-top: 500px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+/* Doel en Motivatie */
+
+.doelmot{
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.doelmotip{
+    display: inline-block;
+    padding: 20px;
+    display: inline-block;
+    background-color: rgb(82, 123, 78);
+    margin-left: -4px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 2.4px 4.8px 4.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.doelmotidiv{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+}
+
+.doelmotiul{
+    display: inline-block;
+    background-color: rgb(188, 79, 79);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: 0.3s;
+    box-shadow: 2.4px 4.8px 4.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.doelmotiul:hover{
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+/* maatchappelijk probleem */
+
+.maatst{
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    margin-top: 7px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.meta{
+    padding: 20px;
+    background-color: rgb(202, 90, 90);
+    display: inline-block;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 40px;
+    margin-right: 100px;
+    margin-bottom: -7px;
+    margin-top: 0px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.maatst2{
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    margin-top: 7px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.issue{
+    padding: 20px;
+    background-color: rgb(202, 90, 90);
+    display: inline-block;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 40px;
+    margin-right: 100px;
+    margin-bottom: -7px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+/* tabel oppervlakte */
+
+.opptabelt{
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    margin-top: 7px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.opptabelinfo{
+    padding: 20px;
+    background-color: rgb(202, 90, 90);
+    display: inline-block;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 40px;
+    margin-right: 100px;
+    margin-bottom: -7px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.opptabelt2{
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    margin-top: 7px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.opptabeldiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.opptabel{
+    background-color: rgb(198, 128, 128);
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: 40px;
+    border-block-end-color: black;
+    border-top-color: black;
+    border-left-color: black;
+    border-bottom-color: black;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.imgmarokko{
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.opptabelt3{
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    margin-right: 400px;
+    margin-top: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+/* tabel bevolking */
+
+.tabelbevolt{
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    margin-top: 7px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.tabelp{
+    padding: 20px;
+    background-color: rgb(202, 90, 90);
+    display: inline-block;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 40px;
+    margin-right: 100px;
+    margin-bottom: -7px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.tabelbevolt2{
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: -16px;
+    margin-top: 7px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+/* school systeem */
+
+.schoolingmain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;   
+}
+
+.schoolingh2{
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    margin-top: 7px;
+    margin-right: 400px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.schoolingsector{
+    padding: 20px;
+    background-color: rgb(202, 90, 90);
+    display: inline-block;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 40px;
+    margin-bottom: -7px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.schoolingimg{
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 50px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+    border-radius: 20px;
+}
+
+/* religions */
+
+.religiesh2{
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    margin-top: 7px;
+    margin-right: 400px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.religiesector{
+    padding: 20px;
+    background-color: rgb(202, 90, 90);
+    display: inline-block;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 40px;
+    margin-bottom: -7px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.religiesh3{
+    padding: 10px;
+    background-color: rgb(124, 158, 106);
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.religiesdivimg{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1100px;
+    margin-top: -800px;
+}
+
+.relegiesimg{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+/* formulier vrijwilliger */
+
+.formvrijt{
+    margin-left: 580px;
+    margin-right: 400px;
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: -80px;
+    margin-top: 7px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.formvrijps{
+    padding: 20px;
+    background-color: rgb(202, 90, 90);
+    display: inline-block;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 550px;
+    margin-bottom: -8px;
+}
+
+.formvrijp{
+    padding: 20px;
+    background-color: rgb(202, 90, 90);
+    display: inline-block;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 550px;
+    margin-bottom: -8px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.formvrijt2{
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: -20px;
+    margin-top: 7px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.formvrijdiv{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.n1{
+    padding: 20px;
+    background-color: rgb(202, 90, 90);
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+    margin-bottom: 20px;
+}
+
+.n1s{
+    padding: 20px;
+    background-color: rgb(202, 90, 90);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+    margin-bottom: 20px;
+}
+
+.inputdonvrij{
+    padding: 8px;
+    width: 180px;  
+}
+
+.formvrijb{
+    display: flex;
+    justify-content: center;
+}
+
+.annuleren{
+    padding: 8px;
+    width: 200px;
+    background-color: rgb(82, 123, 78);
+    border: 1px;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.annuleren:hover{
+    border-radius: 20px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.verzenden{
+    padding: 8px;
+    width: 200px;
+    background-color: rgb(82, 123, 78);
+    border: 1px;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-right: 5px;
+}
+
+.verzenden:hover{
+    border-radius: 20px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+/* overzichtgoedendoelen */
+
+.overt{
+    margin-left: 550px;
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.overul{
+    font-size: 20px;
+}
+
+.overli{
+    margin-bottom: 40px;
+    display: inline-block;
+    background-color: rgb(202, 90, 90);
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.overli:hover{
+    margin-top: -12px;
+    margin-bottom: 50px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+
+.overs{
+    display: inline-block;
+    background-color: rgb(124, 158, 106);
+    padding: 10px;
+    padding-left: 40px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.overbuttondiv{
+    display: flex;
+    justify-content: center;
+}
+
+.buttonover{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(210, 80, 80); 
+    color: black;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-family: MyFont;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 15px;
+    box-shadow: 5px 10px rgba(194, 62, 62, 0.4); 
+}
+
+.buttonover:hover{
+    background-color: rgb(172, 69, 69); 
+    box-shadow: 10px 15px rgba(137, 43, 43, 0.4);
+}
+
+
+/* Begroting en financiering */
+
+.befinant1{
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    margin-top: 6px;
+    margin-right: 900px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.befinantekst1{
+    display: inline-block;
+    background-color: rgb(202, 90, 90);
+    padding: 20px;
+    margin-top: 0px;
+    margin-left: 40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 17px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.imgbefinan{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 50px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+    border-radius: 20px;
+}
+
+.befinant2{
+    display: inline-block;
+    background-color: rgb(124, 158, 106);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 90px;
+    margin-right: 900px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.befinantekst2{
+    display: inline-block;
+    background-color: rgb(202, 90, 90);
+    padding: 20px;
+    margin-top: 0px;
+    margin-left: 140px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 17px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+/*Donatieformulier*/
+
+.donh2{
+    display: inline-block;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: rgb(110, 139, 95);
+    margin-top: 5px;
+}
+
+.contbalk{
+    display: inline-block;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: rgb(110, 139, 95);
+    margin-top: -15px;
+}
+
+.progress-container {
+    width: 100%;
+    height: 25px;
+    background-color: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 15px 0;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 35%;
+    background-color: rgb(210, 80, 80);
+    transition: width 0.5s ease-in-out;
+}
+
+.formdont{
+    margin-top: 60px;
+    margin-bottom: 0px;
+    display: block;
+    background-color: rgb(110, 139, 95);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.fulldon{
+    display: flex;
+    justify-content: space-around;
+}
+
+.indon{
+    padding: 10px;
+    background-color: rgb(202, 90, 90);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.inputdon {
+    padding: 8px;
+    width: 180px;  
+}
+
+.formdonb{
+    display: flex;
+    justify-content: center;
+}
+
+#doneer{
+    padding: 8px;
+    width: 200px;
+    background-color: rgb(82, 123, 78);
+    border: 1px;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+#doneer:hover{
+    border-radius: 20px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+#annuleren{
+    padding: 8px;
+    width: 200px;
+    background-color: rgb(82, 123, 78);
+    border: 1px;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-right: 5px;
+}
+
+#annuleren:hover{
+    border-radius: 20px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+
+
+
+/* Reclame pop-up */
+
+
+
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1000;
+  left: 0; top: 0;
+  width: 100%; 
+  height: 100%;
+  background-color: rgba(0,0,0,0.6); 
+  font-family: MyFont, serif;
+}
+
+.modal-content {
+  background-color: #fff2f2; 
+  margin: 15% auto;
+  padding: 30px;
+  width: 350px;
+  text-align: center;
+  border-radius: 20px; 
+  position: relative;
+  border: 3px solid rgb(210, 80, 80); 
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+}
+
+.modal-content h2 {
+  color: rgb(172, 69, 69); 
+}
+
+.close {
+  position: absolute;
+  right: 15px; top: 10px;
+  cursor: pointer;
+  font-size: 28px;
+  color: rgb(210, 80, 80); 
+  transition: 0.3s;
+}
+
+.close:hover {
+  color: rgb(172, 69, 69); 
+  transform: scale(1.2);
+}
+
+.cta-button {
+  background-color: rgb(210, 80, 80); 
+  color: black;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 10px;
+  font-family: MyFont;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 15px;
+  box-shadow: 5px 10px rgba(194, 62, 62, 0.4); 
+}
+
+.cta-button:hover {
+  background-color: rgb(172, 69, 69); 
+  box-shadow: 10px 15px rgba(137, 43, 43, 0.4);
+}
+
+/* Quiz over goede doelen */
+
+/* De knoppen onder elkaar */
+.cta-button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    width: 300px;
+    cursor: pointer;
+    font-family: MyFont, serif;
+}
+
+/* De kleuren voor goed of fout */
+
+/* Feedback kleuren voor de quiz */
+.goed {
+    background-color: green !important;
+    color: white;
+}
+
+.fout {
+    background-color: red !important;
+    color: white;
+}
+
+/* Zorg dat de antwoordknoppen er netjes uitzien */
+#knoppen-veld button {
+    display: block;
+    margin: 10px auto;
+    min-width: 200px;
+}
+
+/* Bronvermelding */
+
+.bron-H1{
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: -10px;
+    margin-top: 7px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.bron-H2{
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    margin-top: 7px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.bron-H2W{
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: -17px;
+    margin-top: 7px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+
+.bron-A{
+    padding: 20px;
+    background-color: rgb(202, 90, 90);
+    display: inline-block;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 150px;
+    margin-bottom: 0px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.bron-A1{
+    padding: 20px;
+    background-color: rgb(202, 90, 90);
+    display: inline-block;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 150px;
+    margin-bottom: -8px;
+    margin-top: 3px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.bron-A2{
+    padding: 20px;
+    background-color: rgb(202, 90, 90);
+    display: inline-block;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 150px;
+    margin-bottom: -8px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.bron-H3{
+    display: inline-block;
+    background-color: rgb(124, 158, 106);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: -17px;
+    margin-top: 0px;
+    margin-left: 90px;
+    margin-right: 900px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/* verslag en reflectie */
+
+.verslag-H1{
+     display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: -16px;
+    margin-top: 7px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;   
+}
+
+.verslag-B{
+    padding: 20px;
+    background-color: rgb(202, 90, 90);
+    display: inline-block;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 150px;
+    margin-bottom: -6px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);   
+}

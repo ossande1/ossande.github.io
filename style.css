@@ -1,21 +1,9 @@
-    @font-face{
-        font-family: Sansfont;
-        src: url(StackSansNotch-VariableFont_wght.ttf);
-    }
-    
-    @keyframes slide-in {
+@font-face {
+  font-family: MyFont;
+  src: url(PlayfairDisplay-VariableFont_wght.ttf); 
+}
 
-        from {
-            transform: translateX(-100%);
-        }
-        
-        to {
-            transform: translateX(0%);
-        }
-
-    }
-
-    @keyframes fade-in {
+ @keyframes fade-in {
 
         from {
             opacity: 0;
@@ -27,1180 +15,1261 @@
 
     }
 
-    .nameStyle{
-        color: rgb(116, 139, 157);
-        transition: 0.3s;
-    }
-
-    .firsth{
-        color: rgb(79, 92, 104);
-    }
-
-    .title:hover .nameStyle{
-        color: rgb(79, 92, 104);
-    }
-
-    .info1{
-        display: block;
-        background-color: rgb(190, 218, 244);
-        padding: 20px;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        border-radius: 20px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    }
-
-    .info2{
-        display: block;
-        background-color: rgb(190, 218, 244);
-        padding: 20px;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        border-radius: 20px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    }
-
-    .info3{
-        display: block;
-        background-color: rgb(190, 218, 244);
-        padding: 20px;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        border-radius: 20px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    }
-
-    .int1{
-        display: inline-block;
-        background-color: rgba(168, 214, 255, 0.112);
-        padding: 10px;
-        border-radius: 20px;
-        transition: 0.3s;
-        font-family: Sansfont;
-        font-weight: bolder;
-    }
-
-    .int2{
-        display: inline-block;
-        background-color: rgba(168, 214, 255, 0.112);
-        padding: 10px;
-        border-radius: 20px;
-        transition: 0.3s;
-        font-family: Sansfont;
-        font-weight: bolder;
-    }
-
-    .int3{
-        display: inline-block;
-        background-color: rgba(168, 214, 255, 0.112);
-        padding: 10px;
-        border-radius: 20px;
-        transition: 0.3s;
-        font-family: Sansfont;
-        font-weight: bolder;
-    }
-
-    .info1:hover .int1{
-        padding: 15px;
-        background-color: rgb(168, 214, 255);
-    }
-
-    .info2:hover .int2{
-        padding: 15px;
-        background-color: rgb(168, 214, 255);
-    }
-
-    .info3:hover .int3{
-        padding: 15px;
-        background-color: rgb(168, 214, 255);
-    }
-
-    .pro{
-       font-family: Sansfont;
-       font-weight: bolder;
-    }
-
-    footer{
-        display: block;
-        background-color: rgb(194, 218, 239);
-        padding: 20px;
-        bottom: 0;
-        margin-top: 20px;
-        margin-left: -8px;
-        margin-right: -8px;
-        margin-bottom: -8px;
-    }
-
-    .last{
-        font-size: 40px;
-        font-family: Sansfont;
-        font-weight: bolder;
-    }
-
-    .lastp{
-        display: inline-block;
-        background-color: rgba(168, 214, 255, 0.112);
-        padding: 10px;
-        border-radius: 20px;
-        transition: 0.3s;
-    }
-
-    footer:hover .lastp{
-        padding: 15px;
-        background-color: rgb(168, 214, 255);
-    }
-
-@media screen and (min-width: 768px) {
-
-    body{
-        background-color: rgb(155, 181, 203);
-    }
-
-    .homePage{
-        animation: fade-in 2000ms;
-        opacity: 1;
-    }
-
-    .oudPage{
-        animation: fade-in 5000ms;
-        opacity: 1;
-    }
-
-    .halloPage{
-        animation: slide-in 100ms;
-        animation-timing-function: linear;
-    }
-
-    .gamePage{
-        animation: slide-in 1000ms;
-        animation-timing-function: linear;
-    }
-
-    .title{
-        display: block;
-        background-color: rgb(194, 218, 239);
-        padding: 20px;
-        border-radius: 60px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-size: 30px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    }
-
-    .line{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    } 
-
-    a{
-        text-decoration: none;
-        color: black;
-    }
-
-    .ject:hover, .ject:active {text-decoration: underline;}
-
-    .rectangle{
-        display: block;
-        background-color: rgb(67, 95, 120);
-        margin-left: -8px;
-        margin-right: -8px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    .line:hover .title2{
-        color: rgb(79, 92, 104);
-    }
-
-    .title2{
-        color: black;
-        background-color: rgb(136, 172, 203);
-        padding-bottom: 100px;
-        padding-left: 10px;
-        padding-right: 10px;
-        border-radius: 60px;
-        float: left;
-        font-size: 20px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        transition: 0.3s;
-    }
-
-    .favorite{
-        line-height: 1.5;
-        display: flex;
-        align-items: center;
-    }
-
-
-    .btn1{
-        padding: 0;
-        border: none;
-        background: none;
-    }
-
-    .pro1{
-        margin-top: 30px;
-        font-size: 25px;
-        display: block;
-        background-color: rgb(165, 195, 222);
-        padding-left: 100px;
-        padding-right: 100px;
-        padding-bottom: 350px;
-        padding-top: 50px;
-        border-radius: 20px;
-        background-image: url(tabletcr.webp);
-        background-size: 80%;
-        background-repeat: no-repeat;
-        background-position: center;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        cursor: pointer;
-        transition: 0.1s;
-    }
-
-    .pro1:hover{
-        font-size: 30px;
-        background-color: rgb(184, 212, 234);
-        padding-left: 110px;
-        padding-right: 110px;
-        padding-bottom: 420px;
-        padding-top: 25px;
-        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
-    }
-
-    .btn2{
-        padding: 0;
-        border: none;
-        background: none;
-    }
-
-    .pro2{
-        margin-top: 30px;
-        font-size: 25px;
-        display: block;
-        background-color: rgb(165, 195, 222);
-        padding-left: 100px;
-        padding-right: 100px;
-        padding-top: 50px;
-        padding-bottom: 350px;
-        border-radius: 20px;
-        background-image: url(watch.png);
-        background-size: 50%;
-        background-repeat: no-repeat;
-        background-position: center;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        cursor: pointer;
-        transition: 0.1s;
-    }
-
-    .pro2:hover{
-        font-size: 30px;
-        background-color: rgb(184, 212, 234);
-        padding-left: 110px;
-        padding-right: 110px;
-        padding-bottom: 420px;
-        padding-top: 25px;
-        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
-    }
-
-    .btn3{
-        padding: 0;
-        border: none;
-        background: none;
-    }
-
-    .pro3{
-        margin-top: 30px;
-        font-size: 25px;
-        display: block;
-        background-color: rgb(165, 195, 222);
-        padding-left: 100px;
-        padding-right: 100px;
-        padding-bottom: 350px;
-        padding-top: 50px;
-        border-radius: 20px;
-        background-image: url(gamehub.webp);
-        background-size: 80%;
-        background-repeat: no-repeat;
-        background-position: center;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        cursor: pointer;
-        transition: 0.1s;
-    }
-
-    .pro3:hover{
-        font-size: 30px;
-        background-color: rgb(184, 212, 234);
-        padding-left: 110px;
-        padding-right: 110px;
-        padding-bottom: 420px;
-        padding-top: 25px;
-        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
-    }
-
-    .back{
-        display: block;
-        padding: 20px;
-        background-color: aliceblue;
-        border-radius: 20px;
-        border: none;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        transition: 0.3s;
-    }
-
-    .back:hover{
-        padding: 25px;
-        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
-    }
-
-    a{
-        text-decoration: none;
-        color: black;
-    }
-
-    .firline{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 20px;
-    }
-
-    .wat{
-        font-size: 17px;
-        display: block;
-        background-color: aliceblue;
-        padding: 30px;
-        margin: 20px;
-        border-radius: 20px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    }
-
-    .drwat{
-        display: none;
-        padding: 20px;
-        background-color: rgb(189, 209, 226);
-        border-radius: 20px;
-    }
-
-    .wat:hover{
-        padding: 35px;
-        background-color: rgb(203, 217, 230);
-        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
-        transition: 0.3s
-    }
-
-    .wat:hover .drwat{
-        display: block;
-    }
-
-    .hoe{
-        font-size: 17px;
-        display: block;
-        background-color: aliceblue;
-        padding: 30px;
-        margin: 20px;
-        border-radius: 20px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    }
-
-    .drhoe{
-        display: none;
-        padding: 20px;
-        background-color: rgb(189, 209, 226);
-        border-radius: 20px;
-    }
-
-    .hoe:hover{
-        padding: 35px;
-        background-color: rgb(203, 217, 230);
-        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
-        transition: 0.3s
-    }
-
-    .hoe:hover .drhoe{
-        display: block;
-    }
-
-    .welke{
-        font-size: 17px;
-        display: block;
-        background-color: aliceblue;
-        padding: 30px;
-        margin: 20px;
-        border-radius: 20px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    }
-
-    .drwelke{
-        display: none;
-        padding: 20px;
-        background-color: rgb(189, 209, 226);
-        border-radius: 20px;
-    }
-
-    .welke:hover{
-        padding: 35px;
-        background-color: rgb(203, 217, 230);
-        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
-        transition: 0.3s
-    }
-
-    .welke:hover .drwelke{
-        display: block;
-    }
-
-    .rol{
-        font-size: 17px;
-        display: block;
-        background-color: aliceblue;
-        padding: 30px;
-        margin: 20px;
-        border-radius: 20px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    }
-
-    .drrol{
-        display: none;
-        padding: 20px;
-        background-color: rgb(189, 209, 226);
-        border-radius: 20px;
-    }
-
-    .rol:hover{
-        padding: 35px;
-        background-color: rgb(203, 217, 230);
-        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
-        transition: 0.3s
-    }
-
-    .rol:hover .drrol{
-        display: block;
-    }
-
-    .git{
-        font-size: 17px;
-        display: block;
-        background-color: aliceblue;
-        padding: 30px;
-        margin: 20px;
-        border-radius: 20px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    }
-
-    .drgit{
-        display: none;
-        padding: 20px;
-        background-color: rgb(189, 209, 226);
-        border-radius: 20px;
-    }
-
-    .git:hover{
-        padding: 35px;
-        background-color: rgb(203, 217, 230);
-        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
-        transition: 0.3s
-    }
-
-    .git:hover .drgit{
-        display: block;
-    }
-
-    .secline{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        margin-top: 70px;
-    }
-
-    .waarom{
-        font-size: 17px;
-        display: block;
-        background-color: aliceblue;
-        padding: 40px;
-        margin-top: 20px;
-        margin: 20px;
-        border-radius: 20px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    }
-
+body{
+    background-color: rgba(255, 142, 142);
+    animation: fade-in 500ms;
 }
 
-@media screen and (max-width: 992px) {
-
-    body{
-        background-color: rgb(155, 181, 203);
-    }
-
-    .title{
-        display: block;
-        background-color: rgb(222, 232, 241);
-        padding: 20px;
-        border-radius: 60px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-size: 30px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    }
-
-    .line{
-        display: flex;
-        flex-direction: column;
-    }
-
-    a{
-        text-decoration: none;
-        color: black;
-    }
-
-    .ject:hover, .ject:active {text-decoration: underline;}
-
-    .title2{
-        display: block;
-        background-color: rgb(194, 218, 239);
-        padding: 20px;
-        border-radius: 60px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-size: 30px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    }
-
-    .btn1{
-        padding: 0;
-        border: none;
-        background: none;
-    }
-
-    .pro1{
-        margin-top: 30px;
-        font-size: 25px;
-        display: block;
-        background-color: aliceblue;
-        padding-left: 100px;
-        padding-right: 100px;
-        padding-bottom: 400px;
-        padding-top: 20px;
-        border-radius: 20px;
-        background-image: url(tabletcr.webp);
-        background-size: 80%;
-        background-repeat: no-repeat;
-        background-position: center;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        cursor: pointer;
-        transition: 0.1s
-    }
-
-    .pro1:hover{
-        font-size: 30px;
-        background-color: rgb(199, 211, 221);
-        padding-left: 110px;
-        padding-right: 110px;
-        padding-bottom: 420px;
-        padding-top: 25px;
-        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
-    }
-
-    .btn2{
-        padding: 0;
-        border: none;
-        background: none;
-    }
-
-    .pro2{
-        margin-top: 30px;
-        font-size: 25px;
-        display: block;
-        background-color: aliceblue;
-        padding-left: 100px;
-        padding-right: 100px;
-        padding-top: 20px;
-        padding-bottom: 400px;
-        border-radius: 20px;
-        background-image: url(watch.png);
-        background-size: 40%;
-        background-repeat: no-repeat;
-        background-position: center;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        cursor: pointer;
-        transition: 0.1s
-    }
-
-    .pro2:hover{
-        font-size: 30px;
-        background-color: rgb(199, 211, 221);
-        padding-left: 110px;
-        padding-right: 110px;
-        padding-bottom: 420px;
-        padding-top: 25px;
-        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
-    }
-
-    .btn3{
-        padding: 0;
-        border: none;
-        background: none;
-    }
-
-
-    .pro3{
-        margin-top: 30px;
-        font-size: 25px;
-        display: block;
-        background-color: aliceblue;
-        padding-left: 100px;
-        padding-right: 100px;
-        padding-bottom: 400px;
-        padding-top: 20px;
-        border-radius: 20px;
-        background-image: url(gamehub.webp);
-        background-size: 70%;
-        background-repeat: no-repeat;
-        background-position: center;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        cursor: pointer;
-        transition: 0.1s
-    }
-
-    .pro3:hover{
-        font-size: 30px;
-        background-color: rgb(199, 211, 221);
-        padding-left: 110px;
-        padding-right: 110px;
-        padding-bottom: 420px;
-        padding-top: 25px;
-        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
-    }
-
-    .back{
-        display: block;
-        padding: 20px;
-        background-color: aliceblue;
-        border-radius: 20px;
-        border: none;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        transition: 0.3s;
-    }
-
-    .back:hover{
-        padding: 25px;
-        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
-    }
-
-    a{
-        text-decoration: none;
-        color: black;
-    }
-
-    .firline{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 20px;
-    }
-
-    .wat{
-        font-size: 17px;
-        display: block;
-        background-color: aliceblue;
-        padding: 30px;
-        margin: 20px;
-        border-radius: 20px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    }
-
-    .drwat{
-        display: none;
-        padding: 20px;
-        background-color: rgb(189, 209, 226);
-        border-radius: 20px;
-    }
-
-    .wat:hover{
-        padding: 35px;
-        background-color: rgb(203, 217, 230);
-        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
-        transition: 0.3s
-    }
-
-    .wat:hover .drwat{
-        display: block;
-    }
-
-    .hoe{
-        font-size: 17px;
-        display: block;
-        background-color: aliceblue;
-        padding: 30px;
-        margin: 20px;
-        border-radius: 20px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    }
-
-    .drhoe{
-        display: none;
-        padding: 20px;
-        background-color: rgb(189, 209, 226);
-        border-radius: 20px;
-    }
-
-    .hoe:hover{
-        padding: 35px;
-        background-color: rgb(203, 217, 230);
-        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
-        transition: 0.3s
-    }
-
-    .hoe:hover .drhoe{
-        display: block;
-    }
-
-    .welke{
-        font-size: 17px;
-        display: block;
-        background-color: aliceblue;
-        padding: 30px;
-        margin: 20px;
-        border-radius: 20px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    }
-
-    .drwelke{
-        display: none;
-        padding: 20px;
-        background-color: rgb(189, 209, 226);
-        border-radius: 20px;
-    }
-
-    .welke:hover{
-        padding: 35px;
-        background-color: rgb(203, 217, 230);
-        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
-        transition: 0.3s
-    }
-
-    .welke:hover .drwelke{
-        display: block;
-    }
-
-    .rol{
-        font-size: 17px;
-        display: block;
-        background-color: aliceblue;
-        padding: 30px;
-        margin: 20px;
-        border-radius: 20px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    }
-
-    .drrol{
-        display: none;
-        padding: 20px;
-        background-color: rgb(189, 209, 226);
-        border-radius: 20px;
-    }
-
-    .rol:hover{
-        padding: 35px;
-        background-color: rgb(203, 217, 230);
-        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
-        transition: 0.3s
-    }
-
-    .rol:hover .drrol{
-        display: block;
-    }
-
-    .git{
-        font-size: 17px;
-        display: block;
-        background-color: aliceblue;
-        padding: 30px;
-        margin: 20px;
-        border-radius: 20px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    }
-
-    .drgit{
-        display: none;
-        padding: 20px;
-        background-color: rgb(189, 209, 226);
-        border-radius: 20px;
-    }
-
-    .git:hover{
-        padding: 35px;
-        background-color: rgb(203, 217, 230);
-        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
-        transition: 0.3s
-    }
-
-    .git:hover .drgit{
-        display: block;
-    }
-
-    .secline{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        margin-top: 70px;
-    }
-
-    .waarom{
-        font-size: 17px;
-        display: block;
-        background-color: aliceblue;
-        padding: 40px;
-        margin-top: 20px;
-        margin: 20px;
-        border-radius: 20px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    }
-
+a{
+    text-decoration: none;
+    color: black;
 }
 
-@media screen and (max-width: 600px){
+a:hover{
+    text-decoration: underline;
+}
 
-    body{
-        background-color: rgb(155, 181, 203);
-    }
+button:hover{
+    cursor: pointer;
+}
 
-    .title{
-        display: block;
-        background-color: rgb(222, 232, 241);
-        padding: 20px;
-        border-radius: 60px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-size: 30px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    }
+#overlay {
+  position: fixed;
+  display: none; 
+  width: 100%; 
+  height: 100%; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2; 
+  cursor: pointer; 
+}
 
-    .line{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
+/* menu */
 
-    a{
-        text-decoration: none;
-        color: black;
-    }
+nav{
+    display: block;
+    background-color: rgb(210, 80, 80);
+    padding: 20px;
+    margin: -8px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    transition: 0.5s;
+    font-family: MyFont; 
+    font-weight: 500;
+}
 
-    .ject:hover, .ject:active {text-decoration: underline;}
+div{
+    transition: 0.5s;
+}
 
-    .title2{
-        display: block;
-        background-color: rgb(194, 218, 239);
-        padding: 20px;
-        border-radius: 60px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-size: 30px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    }
+nav div{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: block;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+}
 
-    .btn1{
-        padding: 0;
-        border: none;
-        background: none;
-    }
+.home:hover{
+    background-color: rgb(172, 69, 69);
+}
 
-    .pro1{
-        margin-top: 30px;
-        font-size: 25px;
-        display: block;
-        background-color: aliceblue;
-        padding-left: 100px;
-        padding-right: 100px;
-        padding-bottom: 300px;
-        padding-top: 20px;
-        border-radius: 20px;
-        background-image: url(tabletcr.webp);
-        background-size: 80%;
-        background-repeat: no-repeat;
-        background-position: center;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        cursor: pointer;
-        transition: 0.1s
-    }
+.doel:hover{
+    background-color: rgb(172, 69, 69);
+}
 
-    .pro1:hover{
-        font-size: 30px;
-        background-color: rgb(199, 211, 221);
-        padding-left: 110px;
-        padding-right: 110px;
-        padding-bottom: 320px;
-        padding-top: 25px;
-        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
-    }
+.doel:hover .doeldrop{
+    display: block;
+}
 
-    .btn2{
-        padding: 0;
-        border: none;
-        background: none;
-    }
+.doeldrop{
+    padding: 20px;
+    background-color: rgb(110, 139, 95);
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    border-radius: 20px;
+}
 
-    .pro2{
-        margin-top: 30px;
-        font-size: 25px;
-        display: block;
-        background-color: aliceblue;
-        padding-left: 100px;
-        padding-right: 100px;
-        padding-top: 20px;
-        padding-bottom: 300px;
-        border-radius: 20px;
-        background-image: url(watch.png);
-        background-size: 50%;
-        background-repeat: no-repeat;
-        background-position: center;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        cursor: pointer;
-        transition: 0.1s
-    }
+.doeldrop li{
+    margin-top: 5px;
+    padding: 5px;
+}
 
-    .pro2:hover{
-        font-size: 30px;
-        background-color: rgb(199, 211, 221);
-        padding-left: 110px;
-        padding-right: 110px;
-        padding-bottom: 320px;
-        padding-top: 25px;
-        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
-    }
+.doeldrop li:hover{
+    background-color: rgb(82, 123, 78);
+    border-radius: 5px;
+}
 
-    .btn3{
-        padding: 0;
-        border: none;
-        background: none;
-    }
+.land:hover{
+    background-color: rgb(172, 69, 69);
+}
 
-    .pro3{
-        margin-top: 30px;
-        font-size: 25px;
-        display: block;
-        background-color: aliceblue;
-        padding-left: 100px;
-        padding-right: 100px;
-        padding-bottom: 300px;
-        padding-top: 20px;
-        border-radius: 20px;
-        background-image: url(gamehub.webp);
-        background-size: 80%;
-        background-repeat: no-repeat;
-        background-position: center;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        cursor: pointer;
-        transition: 0.1s
-    }
+.land:hover .landdrop{
+    display: block;
+}
 
-    .pro3:hover{
-        font-size: 30px;
-        background-color: rgb(199, 211, 221);
-        padding-left: 110px;
-        padding-right: 110px;
-        padding-bottom: 320px;
-        padding-top: 25px;
-        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
-    }
+.landdrop{
+    padding: 20px;
+    background-color: rgb(110, 139, 95);
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    border-radius: 20px;
+}
 
-    .back{
-        display: block;
-        padding: 20px;
-        background-color: aliceblue;
-        border-radius: 20px;
-        border: none;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        transition: 0.3s;
-    }
+.landdrop li{
+    margin-top: 5px;
+    padding: 5px;
+}
 
-    .back:hover{
-        padding: 25px;
-        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
-    }
+.landdrop li:hover{
+    background-color: rgb(82, 123, 78);
+    border-radius: 5px;
+}
 
-    a{
-        text-decoration: none;
-        color: black;
-    }
+.formvrij:hover{
+    background-color: rgb(172, 69, 69);
+}
 
-    .firline{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 20px;
-    }
+.page1:hover{
+    background-color: rgb(172, 69, 69);
+}
 
-    .wat{
-        font-size: 17px;
-        display: block;
-        background-color: aliceblue;
-        padding: 30px;
-        margin: 20px;
-        border-radius: 20px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    }
+.page2:hover{
+    background-color: rgb(172, 69, 69);
+}
 
-    .drwat{
-        display: none;
-        padding: 20px;
-        background-color: rgb(189, 209, 226);
-        border-radius: 20px;
-    }
+.bron:hover{
+    background-color: rgb(172, 69, 69);
+}
 
-    .wat:hover{
-        padding: 35px;
-        background-color: rgb(203, 217, 230);
-        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
-        transition: 0.3s
-    }
+.vers:hover{
+    background-color: rgb(172, 69, 69);
+}
 
-    .wat:hover .drwat{
-        display: block;
-    }
+/* header */  
 
-    .hoe{
-        font-size: 17px;
-        display: block;
-        background-color: aliceblue;
-        padding: 30px;
-        margin: 20px;
-        border-radius: 20px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    }
+#header-plaats{
+    margin: -8px;
+    padding: 20px;
+    background-color: rgb(220, 99, 99);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-family: MyFont; 
+}
 
-    .drhoe{
-        display: none;
-        padding: 20px;
-        background-color: rgb(189, 209, 226);
-        border-radius: 20px;
-    }
+.head{
+    display: flex;
+    flex-direction: row;
+}
 
-    .hoe:hover{
-        padding: 35px;
-        background-color: rgb(203, 217, 230);
-        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
-        transition: 0.3s
-    }
+.flag{
+    border-radius: 20px;
+    box-shadow: 5px 10px rgba(194, 62, 62, 0.633);
+    transition: 0.3s;
+}
 
-    .hoe:hover .drhoe{
-        display: block;
-    }
+.flag:hover{
+    width: 250px;
+    height: 150px;
+    box-shadow: 5px 10px rgba(137, 43, 43, 0.633);
+}
 
-    .welke{
-        font-size: 17px;
-        display: block;
-        background-color: aliceblue;
-        padding: 30px;
-        margin: 20px;
-        border-radius: 20px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    }
+.titel{
+    margin-left: 40px;
+    color: black;
+}  
 
-    .drwelke{
-        display: none;
-        padding: 20px;
-        background-color: rgb(189, 209, 226);
-        border-radius: 20px;
-    }
+.mobtn{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(110, 139, 95);
+    border: 1px; 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: 0.3s;
+    box-shadow: 5px 10px rgba(40, 112, 59, 0.204);
+}
 
-    .welke:hover{
-        padding: 35px;
-        background-color: rgb(203, 217, 230);
-        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
-        transition: 0.3s
-    }
+.mobtn:hover{
+    padding-bottom: 20px;
+    box-shadow: 10px 15px rgba(38, 122, 51, 0.203);
+    background-color: rgb(82, 123, 78);
+}
 
-    .welke:hover .drwelke{
-        display: block;
-    }
 
-    .rol{
-        font-size: 17px;
-        display: block;
-        background-color: aliceblue;
-        padding: 30px;
-        margin: 20px;
-        border-radius: 20px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    }
+.mode{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 500px;
+}
 
-    .drrol{
-        display: none;
-        padding: 20px;
-        background-color: rgb(189, 209, 226);
-        border-radius: 20px;
-    }
+#moon{
+    display: none;
+}
 
-    .rol:hover{
-        padding: 35px;
-        background-color: rgb(203, 217, 230);
-        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
-        transition: 0.3s
-    }
+/* footer */
 
-    .rol:hover .drrol{
-        display: block;
-    }
+footer{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: block;
+    background-color: rgb(82, 123, 78);
+    padding: 16px;
+    margin-top: 20px;
+    margin-bottom: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    transition: 0.5s;
+    font-family: MyFont; 
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
 
-    .git{
-        font-size: 17px;
-        display: block;
-        background-color: aliceblue;
-        padding: 30px;
-        margin: 20px;
-        border-radius: 20px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    }
+.footerDiv{
+    font-size: 30px;
+    margin-right: auto;
+    color: rgba(217, 162, 20);
+}
 
-    .drgit{
-        display: none;
-        padding: 20px;
-        background-color: rgb(189, 209, 226);
-        border-radius: 20px;
-    }
+.techniekCollegeR{
+     margin-left: auto;
+    color: rgba(217, 162, 20);
+}
 
-    .git:hover{
-        padding: 35px;
-        background-color: rgb(203, 217, 230);
-        box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.36);
-        transition: 0.3s
-    }
+/* homepage */
 
-    .git:hover .drgit{
-        display: block;
-    }
+.homet{
+    margin-left: 400px;
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
 
-    .secline{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        margin-top: 70px;
-    }
+.homediv{
+    border-radius: 20px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
 
-    .waarom{
-        font-size: 17px;
-        display: block;
-        background-color: aliceblue;
-        padding: 40px;
-        margin-top: 20px;
-        margin: 20px;
-        border-radius: 20px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    }
+.homediv:hover{
+    margin-top: -20px;
+    margin-bottom: 70px;
+    border-radius: 20px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
 
+.h2home{
+    display: block;
+    background-color: rgb(82, 123, 78);
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.homep{
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(202, 90, 90);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: -20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/* doelstelling */
+
+.doelstelling-H2{
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: -16px;
+    margin-top: 7px;
+    margin-right: 500px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.doelstelling-A{
+    padding: 20px;
+    background-color: rgb(202, 90, 90);
+    display: inline-block;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 100px;
+    margin-bottom: -8px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.marokkoImg{
+    position: absolute;
+    display: block;
+    margin-left: 1200px;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.marokkoImg2{
+    position: absolute;
+    display: block;
+    margin-left: 1200px;
+    margin-top: 500px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+/* Doel en Motivatie */
+
+.doelmot{
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.doelmotip{
+    display: inline-block;
+    padding: 20px;
+    display: inline-block;
+    background-color: rgb(82, 123, 78);
+    margin-left: -4px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 2.4px 4.8px 4.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.doelmotidiv{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+}
+
+.doelmotiul{
+    display: inline-block;
+    background-color: rgb(188, 79, 79);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: 0.3s;
+    box-shadow: 2.4px 4.8px 4.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.doelmotiul:hover{
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+/* maatchappelijk probleem */
+
+.maatst{
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    margin-top: 7px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.meta{
+    padding: 20px;
+    background-color: rgb(202, 90, 90);
+    display: inline-block;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 40px;
+    margin-right: 100px;
+    margin-bottom: -7px;
+    margin-top: 0px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.maatst2{
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    margin-top: 7px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.issue{
+    padding: 20px;
+    background-color: rgb(202, 90, 90);
+    display: inline-block;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 40px;
+    margin-right: 100px;
+    margin-bottom: -7px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+/* tabel oppervlakte */
+
+.opptabelt{
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    margin-top: 7px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.opptabelinfo{
+    padding: 20px;
+    background-color: rgb(202, 90, 90);
+    display: inline-block;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 40px;
+    margin-right: 100px;
+    margin-bottom: -7px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.opptabelt2{
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    margin-top: 7px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.opptabeldiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.opptabel{
+    background-color: rgb(198, 128, 128);
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: 40px;
+    border-block-end-color: black;
+    border-top-color: black;
+    border-left-color: black;
+    border-bottom-color: black;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.imgmarokko{
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.opptabelt3{
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    margin-right: 400px;
+    margin-top: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+/* tabel bevolking */
+
+.tabelbevolt{
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    margin-top: 7px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.tabelp{
+    padding: 20px;
+    background-color: rgb(202, 90, 90);
+    display: inline-block;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 40px;
+    margin-right: 100px;
+    margin-bottom: -7px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.tabelbevolt2{
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: -16px;
+    margin-top: 7px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+/* school systeem */
+
+.schoolingmain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;   
+}
+
+.schoolingh2{
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    margin-top: 7px;
+    margin-right: 400px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.schoolingsector{
+    padding: 20px;
+    background-color: rgb(202, 90, 90);
+    display: inline-block;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 40px;
+    margin-bottom: -7px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.schoolingimg{
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 50px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+    border-radius: 20px;
+}
+
+/* religions */
+
+.religiesh2{
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    margin-top: 7px;
+    margin-right: 400px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.religiesector{
+    padding: 20px;
+    background-color: rgb(202, 90, 90);
+    display: inline-block;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 40px;
+    margin-bottom: -7px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.religiesh3{
+    padding: 10px;
+    background-color: rgb(124, 158, 106);
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.religiesdivimg{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1100px;
+    margin-top: -800px;
+}
+
+.relegiesimg{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+/* formulier vrijwilliger */
+
+.formvrijt{
+    margin-left: 580px;
+    margin-right: 400px;
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: -80px;
+    margin-top: 7px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.formvrijps{
+    padding: 20px;
+    background-color: rgb(202, 90, 90);
+    display: inline-block;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 550px;
+    margin-bottom: -8px;
+}
+
+.formvrijp{
+    padding: 20px;
+    background-color: rgb(202, 90, 90);
+    display: inline-block;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 550px;
+    margin-bottom: -8px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.formvrijt2{
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: -20px;
+    margin-top: 7px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.formvrijdiv{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.n1{
+    padding: 20px;
+    background-color: rgb(202, 90, 90);
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+    margin-bottom: 20px;
+}
+
+.n1s{
+    padding: 20px;
+    background-color: rgb(202, 90, 90);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+    margin-bottom: 20px;
+}
+
+.inputdonvrij{
+    padding: 8px;
+    width: 180px;  
+}
+
+.formvrijb{
+    display: flex;
+    justify-content: center;
+}
+
+.annuleren{
+    padding: 8px;
+    width: 200px;
+    background-color: rgb(82, 123, 78);
+    border: 1px;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.annuleren:hover{
+    border-radius: 20px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.verzenden{
+    padding: 8px;
+    width: 200px;
+    background-color: rgb(82, 123, 78);
+    border: 1px;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-right: 5px;
+}
+
+.verzenden:hover{
+    border-radius: 20px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+/* overzichtgoedendoelen */
+
+.overt{
+    margin-left: 550px;
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.overul{
+    font-size: 20px;
+}
+
+.overli{
+    margin-bottom: 40px;
+    display: inline-block;
+    background-color: rgb(202, 90, 90);
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.overli:hover{
+    margin-top: -12px;
+    margin-bottom: 50px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+
+.overs{
+    display: inline-block;
+    background-color: rgb(124, 158, 106);
+    padding: 10px;
+    padding-left: 40px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.overbuttondiv{
+    display: flex;
+    justify-content: center;
+}
+
+.buttonover{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(210, 80, 80); 
+    color: black;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-family: MyFont;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 15px;
+    box-shadow: 5px 10px rgba(194, 62, 62, 0.4); 
+}
+
+.buttonover:hover{
+    background-color: rgb(172, 69, 69); 
+    box-shadow: 10px 15px rgba(137, 43, 43, 0.4);
+}
+
+
+/* Begroting en financiering */
+
+.befinant1{
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    margin-top: 6px;
+    margin-right: 900px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.befinantekst1{
+    display: inline-block;
+    background-color: rgb(202, 90, 90);
+    padding: 20px;
+    margin-top: 0px;
+    margin-left: 40px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 17px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.imgbefinan{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 50px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+    border-radius: 20px;
+}
+
+.befinant2{
+    display: inline-block;
+    background-color: rgb(124, 158, 106);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 90px;
+    margin-right: 900px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.befinantekst2{
+    display: inline-block;
+    background-color: rgb(202, 90, 90);
+    padding: 20px;
+    margin-top: 0px;
+    margin-left: 140px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 17px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+/*Donatieformulier*/
+
+.donh2{
+    display: inline-block;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: rgb(110, 139, 95);
+    margin-top: 5px;
+}
+
+.contbalk{
+    display: inline-block;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: rgb(110, 139, 95);
+    margin-top: -15px;
+}
+
+.progress-container {
+    width: 100%;
+    height: 25px;
+    background-color: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 15px 0;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 35%;
+    background-color: rgb(210, 80, 80);
+    transition: width 0.5s ease-in-out;
+}
+
+.formdont{
+    margin-top: 60px;
+    margin-bottom: 0px;
+    display: block;
+    background-color: rgb(110, 139, 95);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.fulldon{
+    display: flex;
+    justify-content: space-around;
+}
+
+.indon{
+    padding: 10px;
+    background-color: rgb(202, 90, 90);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.inputdon {
+    padding: 8px;
+    width: 180px;  
+}
+
+.formdonb{
+    display: flex;
+    justify-content: center;
+}
+
+#doneer{
+    padding: 8px;
+    width: 200px;
+    background-color: rgb(82, 123, 78);
+    border: 1px;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+#doneer:hover{
+    border-radius: 20px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+#annuleren{
+    padding: 8px;
+    width: 200px;
+    background-color: rgb(82, 123, 78);
+    border: 1px;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-right: 5px;
+}
+
+#annuleren:hover{
+    border-radius: 20px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+
+
+
+/* Reclame pop-up */
+
+
+
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1000;
+  left: 0; top: 0;
+  width: 100%; 
+  height: 100%;
+  background-color: rgba(0,0,0,0.6); 
+  font-family: MyFont, serif;
+}
+
+.modal-content {
+  background-color: #fff2f2; 
+  margin: 15% auto;
+  padding: 30px;
+  width: 350px;
+  text-align: center;
+  border-radius: 20px; 
+  position: relative;
+  border: 3px solid rgb(210, 80, 80); 
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+}
+
+.modal-content h2 {
+  color: rgb(172, 69, 69); 
+}
+
+.close {
+  position: absolute;
+  right: 15px; top: 10px;
+  cursor: pointer;
+  font-size: 28px;
+  color: rgb(210, 80, 80); 
+  transition: 0.3s;
+}
+
+.close:hover {
+  color: rgb(172, 69, 69); 
+  transform: scale(1.2);
+}
+
+.cta-button {
+  background-color: rgb(210, 80, 80); 
+  color: black;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 10px;
+  font-family: MyFont;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 15px;
+  box-shadow: 5px 10px rgba(194, 62, 62, 0.4); 
+}
+
+.cta-button:hover {
+  background-color: rgb(172, 69, 69); 
+  box-shadow: 10px 15px rgba(137, 43, 43, 0.4);
+}
+
+/* Quiz over goede doelen */
+
+/* De knoppen onder elkaar */
+.cta-button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    width: 300px;
+    cursor: pointer;
+    font-family: MyFont, serif;
+}
+
+/* De kleuren voor goed of fout */
+
+/* Feedback kleuren voor de quiz */
+.goed {
+    background-color: green !important;
+    color: white;
+}
+
+.fout {
+    background-color: red !important;
+    color: white;
+}
+
+/* Zorg dat de antwoordknoppen er netjes uitzien */
+#knoppen-veld button {
+    display: block;
+    margin: 10px auto;
+    min-width: 200px;
+}
+
+/* Bronvermelding */
+
+.bron-H1{
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: -10px;
+    margin-top: 7px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.bron-H2{
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    margin-top: 7px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.bron-H2W{
+    display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: -17px;
+    margin-top: 7px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+
+.bron-A{
+    padding: 20px;
+    background-color: rgb(202, 90, 90);
+    display: inline-block;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 150px;
+    margin-bottom: 0px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.bron-A1{
+    padding: 20px;
+    background-color: rgb(202, 90, 90);
+    display: inline-block;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 150px;
+    margin-bottom: -8px;
+    margin-top: 3px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.bron-A2{
+    padding: 20px;
+    background-color: rgb(202, 90, 90);
+    display: inline-block;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 150px;
+    margin-bottom: -8px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+
+.bron-H3{
+    display: inline-block;
+    background-color: rgb(124, 158, 106);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: -17px;
+    margin-top: 0px;
+    margin-left: 90px;
+    margin-right: 900px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/* verslag en reflectie */
+
+.verslag-H1{
+     display: inline-block;
+    background-color: rgb(110, 139, 95);
+    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: -16px;
+    margin-top: 7px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;   
+}
+
+.verslag-B{
+    padding: 20px;
+    background-color: rgb(202, 90, 90);
+    display: inline-block;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: 150px;
+    margin-bottom: -6px;
+    box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);   
 }
